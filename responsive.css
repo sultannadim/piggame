@@ -1,0 +1,86 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .name {
+    font-size: 1.4rem;
+  }
+  .score {
+    font-size: 5rem;
+    margin: 30px 0px 120px 0px;
+  }
+  .dice {
+    width: 20%;
+    height: 6rem;
+  }
+  main {
+    width: 52rem;
+    height: 52rem;
+  }
+  .btn--new {
+    top: 6.5rem;
+  }
+
+  .current {
+    width: 85%;
+    padding: 1.5rem;
+  }
+  .current-label {
+    margin-bottom: 0.5rem;
+    margin-right: 0.7rem;
+    font-size: 0.8rem;
+    color: #ddd;
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
+.player {
+  padding: 4rem;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .name {
+    font-size: 2rem;
+  }
+  .score {
+    font-size: 7rem;
+    margin: 30px 0px 80px 0px;
+  }
+  main {
+    width: 58rem;
+    height: 52rem;
+  }
+  .current {
+    width: 85%;
+    padding: 1.5rem;
+  }
+  .current-label {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #ddd;
+  }
+  .btn {
+    font-size: 1.3rem;
+    padding: 0.7rem 2rem;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .name {
+    font-size: 3rem;
+  }
+  .score {
+    font-size: 7rem;
+    margin: 30px 0px 80px 0px;
+  }
+  main {
+    width: 75rem;
+    height: 54rem;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
